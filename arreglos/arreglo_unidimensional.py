@@ -15,10 +15,6 @@ print("Cantidad de elementos:", len(notas))
 notas[2] = 9
 print("Despues de cambiar el indice 2:", notas)
 
-# Recorrido mostrando indice y valor
-print("\nRecorrido del arreglo:")
-for i in range(len(notas)):
-    print("  notas[" + str(i) + "] =", notas[i])
 
 # Operaciones comunes: suma, promedio, maximo y minimo
 suma = 0
@@ -45,8 +41,4 @@ if not encontrado:
     print("\nEl valor", buscado, "no se encuentra en el arreglo")
 
 # Crear un arreglo vacio y cargarlo
-cuadrados = []
-for i in range(1, 6):
-    cuadrados.append(i * i)
 
-print("\nArreglo de cuadrados:", cuadrados)
